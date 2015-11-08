@@ -111,6 +111,10 @@ The required steps come down to
 2. Make the fix.
 3. Submit a pull request to the project owner.
 
+#### Excourse on the advantage of forking and pull requests
+The advantage of having a branch for each issue or improvement that you are working on is that you have a clearer separation between the areas you are working on. Imagine that you want to add a section to our [Quality Objectives](/about-this-site/quality-management-system/quality-objectives/) and in parallel refine the way, in which a [Daily Standup](/delivering-projects/daily-standup) is conducted. You commit both changes in on branch (or even your master branch) and create one pull request for them. The reviewer might conclude that your changes on the Daily are alright - but you still need an iteration on the Quality Objective's changes. This actually blocks your ideas on the Daily to be shared with others untils you have dealt with the reviewer's suggestions.
+It might even go further, if the reviewer dismisses your pull request. Now, you have a local master branch, which is out of sync with the HEAD of the WunderWay - and this will give you a hard to to undo. Unless you recreate the fork.
+
 #### Setup: Forking the WunderWay
 1. Login to your GitHub account
 2. Navigate to the [WunderWay - GitHub Repository](https://github.com/wunderkraut/WunderWay)
