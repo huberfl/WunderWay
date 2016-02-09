@@ -78,6 +78,17 @@ You need to be Jira or project administrator to change your project's Type Scree
 4. Select either *Default Issue Type Scheme*
 5. Click the button *Associate*
 
+### Configure the Permission Scheme
+Please ensure that you make only use of the *Default Permission Scheme*. Atlassian has changed the default to be the *Default Software Scheme*, which has different permission settings - and allows any logged in user to browser any project.
+
+You need to be Jira or project administrator to change your project's Type Screen Scheme association:
+
+1. Open the configuration page of your Jira project by clicking on the gear wheel on the left side-bar
+2. Select *Permissions* on the left side-bar
+3. Click the button *Actions* in the main window and select *Use a different scheme*
+4. Select either *Default Permission Scheme*
+5. Click the button *Associate*
+
 ### <a name="team-assign"></a>Assign a team to your project
 
 1. Open the configuration page of your Jira project by clicking on the gear wheel on the left side-bar
@@ -87,7 +98,8 @@ You need to be Jira or project administrator to change your project's Type Scree
 #### Recommendations:
 
 * Make the project lead also administrator
-* Assign customers the roles *Developers* and *Users*
+* Assign the team to the appropriate role (e.g. devs to *Developers*, customers to *Users*)
+* Assign customers the roles *Users*
 
 ## <a name="create-board"></a>Create Board
 Whereby a project stores all issues, determines the workflow as well as the team assignment, you will very likely work on a Jira Board most of your time. A board can be regarded as a special representation of the issues of one (or even several) projects.
